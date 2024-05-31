@@ -1,0 +1,42 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+h1 {
+    color: #333;
+    text-align: center;
+}
+
+.task-container {
+    display: flex;
+    align-items: left;
+    margin: 10px;
+}
+
+.task-title {
+    font-size: 28px; /* Tamanho da fonte */
+    color: #333; /* Cor do texto */
+    margin-right: 10px; /* Margem à direita para separar os botões */
+    align-content: center
+}
+
+.button-form {
+    display: flex;
+    justify-content: flex-start; /* Alinha os itens do formulário à esquerda */
+    margin-left: 0; /* Remove a margem à esquerda */
+    margin-right: 10px; /* Adiciona margem à direita para alinhar à esquerda */
+}
+
+input[type='submit'] {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 4px;
+}
